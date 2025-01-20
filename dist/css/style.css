@@ -1,0 +1,280 @@
+* {
+    font-family: 'Vazirmatn';
+}
+
+.ReblogView {
+    position: relative
+}
+
+.ReblogView {
+    max-width: 600px;
+    min-width: 400px
+}
+
+.ReblogView {
+    border-width: 3px;
+    border-style: solid
+}
+
+.ReblogBorder1 {
+    border-color: rgba(77, 172, 254, 95%)
+}
+
+.ReblogBorder2 {
+    border-color: rgba(255, 8, 68, 95%)
+}
+
+.ReblogBorder3 {
+    border-color: rgba(68, 233, 123, 95%)
+}
+
+.ReblogBorder4 {
+    border-color: rgba(102, 127, 234, 95%)
+}
+
+.ReblogBorder5 {
+    border-color: rgba(247, 141, 160, 95%)
+}
+
+.ReblogView {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px
+}
+
+.ReblogView {
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px
+}
+
+.ReblogView {
+    border-radius: 12px;
+}
+
+.DarkReblogView {
+    background-color: #161616
+}
+
+.LightReblogView {
+    background-color: #FFFFFF
+}
+
+.ReblogView::before {
+    content: ''
+}
+
+.ReblogView::before {
+    float: left
+}
+
+.ReblogView::before {
+    margin-top: 25px
+}
+
+.ReblogView::before {
+    width: 24px;
+    height: 24px
+}
+
+.ReblogView::before {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('https://www.svgrepo.com/show/466014/retweet.svg');
+}
+
+.DarkReblogView::before {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(107deg) brightness(103%) contrast(101%)
+}
+
+.ReblogFlex {
+    display: flex;
+    flex-direction: row
+}
+
+.ReblogImage {
+    width: 48px;
+    height: 48px
+}
+
+.ReblogImage {
+    padding: 2px
+}
+
+.ReblogImage {
+    margin-top: 12px;
+    margin-left: 12px
+}
+
+.ReblogImage {
+    border-radius: 50%
+}
+
+.ReblogGradient1 {
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%)
+}
+
+.ReblogGradient2 {
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+}
+
+.ReblogGradient3 {
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%)
+}
+
+.ReblogGradient4 {
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%)
+}
+
+.ReblogGradient5 {
+    background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+}
+
+.ReblogFirstName {
+    color: #252525;
+}
+
+.DarkReblogView .ReblogFirstName {
+    color: #FAFAFA
+}
+
+.ReblogFirstName {
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.ReblogFirstName {
+    padding-top: 14px
+}
+
+.ReblogID {
+    padding-top: 3px;
+    padding-bottom: 3px
+}
+
+.ReblogWeb {
+    opacity: 60%
+}
+
+.ReblogWeb {
+    font-size: 13px;
+    font-weight: 300
+}
+
+.ReblogWeb {
+    text-decoration: none
+}
+
+.ReblogWeb {
+    color: #252525
+}
+
+.DarkReblogView .ReblogWeb {
+    color: #FAFAFA
+}
+
+.ReblogContent {
+    color: #252525
+}
+
+.DarkReblogView .ReblogContent {
+    color: #FAFAFA
+}
+
+.ReblogContent {
+    line-height: 1.9
+}
+
+.ReblogContent {
+    font-size: 16px;
+    font-weight: normal;
+    text-align: justify
+}
+
+.ReblogContent {
+    padding-top: 25px;
+    padding-bottom: 45px
+}
+
+.ReblogTimes,
+.ReblogRedirect {
+    bottom: 20px;
+    position: absolute
+}
+
+.ReblogTimes {
+    right: 20px
+}
+
+.ReblogRedirect {
+    left: 20px
+}
+
+.ReblogTime {
+    padding-top: 6px;
+    display: inline-block
+}
+
+.ReblogTime,
+.ReblogRedirect {
+    color: #252525
+}
+
+.DarkReblogView .ReblogTime, 
+.DarkReblogView .ReblogRedirect {
+    color: #FAFAFA
+}
+
+.ReblogTime,
+.ReblogRedirect {
+    opacity: 60%
+}
+
+.ReblogTime,
+.ReblogRedirect {
+    font-size: 14px;
+    font-weight: normal
+}
+
+.TimeIcon,
+.RedirectIcon {
+    width: 24px;
+    height: 24px;
+}
+
+.TimeIcon {
+    float: right
+}
+
+.TimeIcon {
+    opacity: 50%
+}
+
+.TimeIcon {
+    margin-left: 6px
+}
+
+.RedirectIcon {
+    float: left
+}
+ 
+.TimeIcon,
+.RedirectIcon {
+    background-size: contain;
+    background-repeat: no-repeat
+}
+
+.TimeIcon {
+    background-image: url('https://www.svgrepo.com/show/525711/calendar.svg');
+}
+
+.RedirectIcon {
+    background-image: url('https://www.svgrepo.com/show/525982/link-circle.svg');
+}
+
+.DarkReblogView .TimeIcon,
+.DarkReblogView .RedirectIcon {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(107deg) brightness(103%) contrast(101%)
+}
